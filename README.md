@@ -20,8 +20,10 @@ git checkout -b branchname
 #修改本地文件，并创建远程develop分支
 git remote add develop https://github.com/strongme/git_op.git
 git push develop master
+```
 
 #Git merge
+``` shell
 #合并分支
 #查看当前分支
 git branch  
