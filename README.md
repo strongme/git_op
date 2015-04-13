@@ -3,7 +3,7 @@
 git init
 git add README.md
 git commit -m "first commit"
-git remove add origin https://github.com/strongme/git_op.git
+git remote add origin https://github.com/strongme/git_op.git
 git push -u origin master
 ```
 
@@ -17,4 +17,7 @@ git branch (branchname)
 git checkout branchname
 #创建并切换到branchname分支
 git checkout -b branchname
+#修改本地文件，并创建远程develop分支
+git remote add develop https://github.com/strongme/git_op.git
+git push develop master
 ```
