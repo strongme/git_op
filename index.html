@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Git op by strongme</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Git op</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/strongme/git_op/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/strongme/git_op/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/strongme/git_op" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="git-init" class="anchor" href="#git-init" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git init</h1>
+
+<div class="highlight highlight-shell"><pre>git init
+git add README.md
+git commit -m <span class="pl-s"><span class="pl-pds">"</span>first commit<span class="pl-pds">"</span></span>
+git remote add origin https://github.com/strongme/git_op.git
+git push -u origin master</pre></div>
+
+<h1>
+<a id="git-branch" class="anchor" href="#git-branch" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git branch</h1>
+
+<div class="highlight highlight-shell"><pre><span class="pl-c">#列出所有分支</span>
+git branch
+<span class="pl-c">#创建分支</span>
+git branch (branchname)
+<span class="pl-c">#切换到branchname分支</span>
+git checkout branchname
+<span class="pl-c">#创建并切换到branchname分支</span>
+git checkout -b branchname
+<span class="pl-c">#修改本地文件，并创建远程develop分支</span>
+git remote add develop https://github.com/strongme/git_op.git
+git push develop master</pre></div>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
